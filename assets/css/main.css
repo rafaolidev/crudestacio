@@ -45,6 +45,13 @@ li:hover a {
     color: lightgray;
 }
 
+.mainBox {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo {
     width: 350px;
     height: 350px;
