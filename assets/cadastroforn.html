@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastroforn.css">
+    <title>Cadastro de Fornecedores</title>
+</head>
+
+<body>
+    <div class="menu">
+        <a class="menuA" href="">
+            <div class="cons">Consumidor</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="forn active">Fornecedores</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="user">Usuários</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="serv">Serviços</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="finan">Financeiro</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="listarCons">Listar Consumidor</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="listarForn">Listar Fornecedores</div>
+        </a>
+    </div>
+    <div class="module">
+        <ul>
+            <form class="form">
+                <h1>Cadastro Fornecedores</h1><br>
+                <img src="https://cdn.pixabay.com/photo/2015/03/27/03/17/mason-694271__340.jpg" alt="">
+                <span>Usuário:</span>
+                <input type="text" placeholder="Usuário" class="textbox" />
+                <span>Senha:</span>
+                <input type="text" placeholder="Senha" class="textbox" />
+                <span>Nome:</span>
+                <input type="text" placeholder="Nome" class="textbox" />
+                <span>CPF:</span>
+                <input type="text" placeholder="CPF" class="textbox" />
+                <span>RG:</span>
+                <input type="text" placeholder="RG" class="textbox" />
+                <span>Email:</span>
+                <input type="email" placeholder="Email" class="textbox" />
+                <span>Conta para depósito:</span>
+                <input type="number" placeholder="Conta para depósito" class="textbox" />
+                <div class="tipoDeConta">
+                    Tipo de Conta:
+                    <input type="checkbox" id="corrente" name="corrente" value="Co">
+                    <label for="corrente">Corrente</label>
+                    <input type="checkbox" id="poupanca" name="poupanca" value="P">
+                    <label for="poupanca">Poupança</label>
+                </div>
+                <span>Endereço:</span>
+                <input type="email" placeholder="Endereço" class="textbox" />
+                <span>Estado:</span>
+                <select id="Estado">
+                    <option value="PR">Paraná</option>
+                </select>
+                <span>Cidade:</span>
+                <select id="estado">
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                    <option value="PR">Curitiba</option>
+                </select>
+                <div class="servicosPrestados">
+                    Serviços prestados:
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Pedreiro (a)</label>
+                    <input type="checkbox" id="dinheiro" name="dinheiro" value="D">
+                    <label for="female">Marcineiro (a)</label>
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Eletricista</label>
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Encanador (a)</label>
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Diarista</label>
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Jardineiro (a)</label>
+                </div>
+                <div class="payment">
+                    Pagamentos Aceitos:
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Cartão</label>
+                    <input type="checkbox" id="dinheiro" name="dinheiro" value="D">
+                    <label for="female">Dinheiro</label>
+                </div>
+                <input type="button" value="Cadastrar" class="button" />
+            </form>
+    </div>
+
+
+</body>
+
+</html>
