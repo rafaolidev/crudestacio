@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastrouse.css">
+    <title>Cadastro de Usuários</title>
+</head>
+
+<body>
+    <div class="menu">
+        <a class="menuA" href="">
+            <div class="cons">Consumidor</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="forn">Fornecedores</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="user active">Usuários</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="serv">Serviços</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="finan">Financeiro</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="listarCons">Listar Consumidor</div>
+        </a>
+        <a class="menuA" href="">
+            <div class="listarForn">Listar Fornecedores</div>
+        </a>
+    </div>
+    <div class="module">
+        <ul>
+            <form class="form">
+                <h1>Cadastro de Usuários</h1><br>
+                <span>Usuário:</span>
+                <input type="text" placeholder="Usuário" class="textbox" />
+                <span>Senha:</span>
+                <input type="text" placeholder="Senha" class="textbox" />
+                <span>Nome:</span>
+                <input type="text" placeholder="Nome" class="textbox" />
+                <span>Email:</span>
+                <input type="email" placeholder="Email" class="textbox" />
+                <div class="payment">
+                    Nivel de Acesso:
+                    <input type="checkbox" id="cartao" name="cartao" value="C">
+                    <label for="Male">Admin</label>
+                    <input type="checkbox" id="dinheiro" name="dinheiro" value="D">
+                    <label for="female">Operador</label>
+                </div>
+                <input type="button" value="Cadastrar" class="button" />
+            </form>
+    </div>
+
+
+</body>
+
+</html>
