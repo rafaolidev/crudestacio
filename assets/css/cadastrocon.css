@@ -17,18 +17,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-.cons:hover,.forn:hover,.user:hover,.serv:hover,.finan:hover, .listarCons:hover,.listarForn:hover {
+
+.cons:hover, .forn:hover, .user:hover, .serv:hover, .finan:hover, .listarCons:hover, .listarForn:hover {
   filter: drop-shadow(2px 4px 6px black);
 }
+
 .active {
   filter: drop-shadow(2px 4px 6px black);
 }
+
 .cons, .forn, .user, .serv, .finan, .listarCons, .listarForn {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 100px;
-  height: 100px;
+  width: 65px;
+  height: 65px;
   margin: 5px;
 }
 
@@ -83,6 +86,7 @@ body {
   background-size: cover;
   text-shadow: 2px 2px black;
 }
+
 .listarCons {
   background: url(https://www.iconsdb.com/icons/preview/color/9A32CD/view-details-xxl.png) no-repeat center top;
   -webkit-background-size: cover;
@@ -91,6 +95,7 @@ body {
   background-size: cover;
   text-shadow: 2px 2px black;
 }
+
 .listarForn {
   background: url(https://www.iconsdb.com/icons/preview/color/9A32CD/list-ingredients-xxl.png) no-repeat center top;
   -webkit-background-size: cover;
@@ -99,6 +104,7 @@ body {
   background-size: cover;
   text-shadow: 2px 2px black;
 }
+
 a {
   display: block;
   color: #ad5482;
